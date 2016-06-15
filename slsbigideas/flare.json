@@ -67,6 +67,7 @@
                          "quote":"Systems thinking explicitly recognizing that there is a system with internal states and boundaries, with inputs and outputs, from and to, the environment placed outside the boundaries.  Systems thinking works to try to expand boundaries to include the phenomena that are relevant to the situation rather than excluding them to simplify study, and then tries to seek component behavior understanding that strips away the less important aspects for the question being asked.",
                          "author":"Matthew Realff",
                          "school":"School of Chemical & Biomolecular Engineering"},
+                         "writeup":"writeups/systems_thinking.html",
                         {"name":"Spatiotemporal Relations",
                          "author":"Bryan Norton",
                           "school":"School of Public Policy",
