@@ -256,10 +256,10 @@
       "fontsize":"18px",
       "labelcolor":"#002d5c",
       "margintop":"0",
-      "level":"#7ea0c4",
+      "level":"#9cb6d3",
       "children":[
             {"name":"ACTION",
-            "labelcolor":"#276092",
+            "labelcolor":"#5d89b4",
             "margintop":"20px",
              "children":[
                     {"name":"Collaborative Community Innovations",
@@ -289,7 +289,7 @@
                 ]
             },
             {"name":"ADAPTIVE LEARNING",
-            "labelcolor":"#276092",
+            "labelcolor":"#5d89b4",
              "zindex":100,
              "margintop": "20px",
                 "children":[

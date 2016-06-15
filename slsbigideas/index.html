@@ -132,7 +132,7 @@
     var yscale = d3.scale.linear().range([0, chartHeight]);
      var color = d3.scale.ordinal()
                   .domain(["SERVE", "LEARN", "SUSTAIN"])
-                  .range(["#9bbdaa", "#ffcb8b" , "#7ea0c4"]);
+                  .range(["#9bbdaa", "#ffcb8b" , "#9cb6d3"]);
     var headerHeight = 28;
     var headerColor = function(d){
         color(d.name); 
@@ -299,7 +299,7 @@
             })
             .style("color",function(d){
                 if (d.writeup){
-                    return "#276092"; 
+                    return "#5d89b4"; 
                 }else {
                     return "black"; 
                 }
