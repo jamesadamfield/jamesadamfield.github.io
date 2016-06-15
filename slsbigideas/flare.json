@@ -6,18 +6,18 @@
       "name": "LEARN",
       "id":"learn",
       "fontsize":"18px",
-      "labelcolor":"#f16c00",
-      "level":"#FFCC80",
+      "labelcolor":"#ea7200",
+      "level":"#ffc27a",
       "children":[
             {"name":"CONCEPTS",
-             "labelcolor":"#fd8c00",
+             "labelcolor":"#ff8300",
               "margintop":"0",
               "id":"concepts",
               "zindex":99,
               "children": [
                 {"name":"Governance",
                     "margintop":"20px",
-                    "labelcolor":"#ffa800",
+                    "labelcolor":"#ffb359",
                     "children":[
                         {"name":"Managing the Commons",
                          "quote":"The ‘tragedy of the commons’ refers to individual actors over-consuming or over-polluting natural resources in the quest to maximize their own, often short-term, benefit. —Beril Toktay",
@@ -41,7 +41,7 @@
                 },
                 {"name":"Urban Development",
                 "zindex":99,
-                "labelcolor":"#ffa800",
+                "labelcolor":"#ffb359",
                 "margintop":"0",
                     "children":[
                         {"name":"Sustainable Urban Development",
@@ -56,7 +56,7 @@
                 },
                 {"name":"Systems",
                 "margintop":"0",
-                "labelcolor":"#ffa800",
+                "labelcolor":"#ffb359",
                     "children":[
                         {"name":"Food-Energy-Water Nexus",
                          "author":"Matthew Realff",
@@ -97,7 +97,7 @@
                     ]
                 },
                 {"name":"Equity, Justice & Diversity",
-                "labelcolor":"#ffa800",
+                "labelcolor":"#ffb359",
                 "zindex":100,
                  "margintop":"0",
                  "dxChange":"-7em", 
@@ -126,7 +126,7 @@
                     ]
                 },
                 {"name":"Science & Technology",
-                "labelcolor":"#ffa800",
+                "labelcolor":"#ffb359",
                  "margintop":"20px",
                  "zindex":99,
                  "children":[
@@ -144,13 +144,13 @@
             },
 
             {"name":"METHODS",
-            "labelcolor":"#fd8c00",
+            "labelcolor":"#ff8300",
              "zindex":99,
-             "backgroundcolor":"#FFA726",
+             "backgroundcolor":"#ffb359",
              "margintop":"20px",
              "children":[
                     {"name":"Community Research",
-                    "labelcolor":"#ffa800",
+                    "labelcolor":"#ffb359",
                     "margintop":"0",
                      "dxChange":"-4em",
                      "children":[
@@ -186,7 +186,7 @@
                       ] 
                     },  
                     {"name":"Storytelling",
-                    "labelcolor":"#ffa800",
+                    "labelcolor":"#ffb359",
                      "margintop":"0",
                       "children":[
                         {"name":"Digital Storytelling & Documentary Media",
@@ -200,7 +200,7 @@
                       ]
                     },
                     {"name":"Leadership",
-                    "labelcolor":"#ffa800",
+                    "labelcolor":"#ffb359",
                     "margintop":"40px",
                       "children":[
                         {"name":"Values-based Leadership", "margintop":"48px",
@@ -214,7 +214,7 @@
                       ]
                     },            
                     {"name":"Experimentation",
-                    "labelcolor":"#ffa800",
+                    "labelcolor":"#ffb359",
                     "margintop":"40px",
                      "dxChange":"2em",
                      "children":[
@@ -230,7 +230,7 @@
                      ]
                     },
                     {"name":"Environmental Assessment",
-                    "labelcolor":"#ffa800",
+                    "labelcolor":"#ffb359",
                     "zindex":100,
                     "margintop":"0",
                      "children":[
@@ -254,12 +254,12 @@
     {
       "name": "SUSTAIN",
       "fontsize":"18px",
-      "labelcolor":"#00244B",
+      "labelcolor":"#002d5c",
       "margintop":"0",
-      "level":"#99caff",
+      "level":"#7ea0c4",
       "children":[
             {"name":"ACTION",
-            "labelcolor":"#1083ff",
+            "labelcolor":"#276092",
             "margintop":"20px",
              "children":[
                     {"name":"Collaborative Community Innovations",
@@ -289,7 +289,7 @@
                 ]
             },
             {"name":"ADAPTIVE LEARNING",
-            "labelcolor":"#1083ff",
+            "labelcolor":"#276092",
              "zindex":100,
              "margintop": "20px",
                 "children":[
@@ -317,12 +317,12 @@
         {
       "name": "SERVE",
       "fontsize":"18px",
-      "labelcolor":"#38976D",
+      "labelcolor":"#2d7050",
       "margintop":"0",
-      "level":"#a3ddc3",
+      "level":"#9bbdaa",
       "children":[
           {"name":"PARTNERSHIP PRINCIPLES",
-          "labelcolor":"#5bc295",
+          "labelcolor":"#71a087",
           "zindex":100,
           "margintop":"20px",
           "dxChange":"8em",
