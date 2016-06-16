@@ -21,6 +21,7 @@
                     "children":[
                         {"name":"Managing the Commons",
                          "quote":"The ‘tragedy of the commons’ refers to individual actors over-consuming or over-polluting natural resources in the quest to maximize their own, often short-term, benefit. —Beril Toktay",
+                         "writeup":"writeups/managing-the-commons.html",
                          "author":"Dan Matisoff",
                          "author2":"Beril Toktay",
                          "school":"School of Public Policy",
