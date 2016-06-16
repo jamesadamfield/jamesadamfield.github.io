@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Equity and Climate</title>
+    <script src="//d3js.org/d3.v3.min.js"></script>
+    
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+    <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="lib/en-us.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+      <style type="text/css">
+
+          .breadcrumb {
+            background-color:white !important;
+          }
+
+          ol {
+            padding-left:0 !important;
+          }
+
+          ol li {
+            padding:.5em !important;
+          }
+
+          .breadcrumb > li::before {
+            color:white !important;
+          }
+
+          #writeup a {
+            color:blue !important;
+          }
+
+          body {
+            font-size: 13px;
+            font-family: "Helvetica Neue", Helvetica;
+          }
+
+          .author-link {
+            border:1px solid;
+          }
+
+          .btn-link:hover {
+            color:white;
+            background-color:#337ab7; 
+            text-decoration: none; 
+
+          }
+
+          .row {
+            margin-bottom:15px ;
+          }
+
+          hr.fade-hr {
+              height: 12px;
+              border: 0;
+              box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+          }
+
+          .back-to-top {
+          background: none;
+          margin: 0;
+          position: fixed;
+          bottom: 0;
+          left: 20;
+          width: 70px;
+          height: 70px;
+          z-index: 100;
+          display: none;
+          text-decoration: none;
+          color: #ffffff;
+          margin-left:20; 
+          }
+
+          .back-to-top i {
+            font-size: 60px;
+            color: rgba(0,0,0,0.5); 
+          }
+
+          .back-to-diagram {
+            position: fixed;
+            bottom: 20px;
+            left: 85vw;
+            z-index: 100;
+          }
+
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="row" id="top">
+                <div class="col-md-12">
+                      <ol class="breadcrumb" style="margin-bottom: 5px;">
+                        <li style="background-color:#f16c00;">Learn</li>
+                        <li style="background-color:#fd8c00;">Concepts</li>
+                        <li style="background-color:#ffa800;">Equity, Justice &amp; Diversity</li>
+                        <li style="background-color:#FFCC80;">Equity and Climate</li>
+                      </ol>
+                </div>
+                <div class="col-md-12">
+                    <h3>Equity and Climate</h3>
+                </div>
+            </div>
+
+                <div class="row" id="breton">
+                  <div class="col-md-7" id="writeup">
+
+                     <h4>How would you define this big idea?</h4>
+                     <p>One does not automatically connect climate change with concerns about equity and social justice.  However, when one begins to think about the global and long-term dimensions of climate change as well as the asymmetry of benefits and costs of climate mitigation actions spatially and temporally, the connections become obvious.</p>
+
+                     <p>There are two ways to assess the equity dimension in climate change and climate change policy: Intra-generational equity and Inter-generational equity.</p>
+
+                     <p>Intra-generational equity is primarily about how we should distribute the burdens within a generation: who would suffer from the effects of climate change? How should the costs of climate mitigation policies be distributed?</p>
+
+                     <p>The UNFCCC (the main global forum for climate change negotiations) has tried to address this issue though the principle “common but differentiated responsibilities and respective capabilities.”</p>
+
+                     <p>For instance under the Kyoto Protocol (1997), differentiation between countries has included specific mitigation commitments with targets and timetables for developed countries, but not developing countries. Differentiation is also present in terms of finance and technology transfer, where developed countries are expected to provide funding and other resources to developing countries in their endeavors to reduce their own emissions as well as adapt to climate change.</p>
+
+                     <p>The distinction between the developed and developing countries in the Kyoto Protocol has made progress on climate change impossible, because growth in emissions since the Protocol came into force in 2005 is entirely in the large developing countries (China, India, Brazil, South Africa, Mexico, and Indonesia). This have made the participation of developing countries to a global response to climate change indispensible. While it will be the efficient solution to have all the main emitters on board, there are many economic and ethical aspects that makes this participation difficult to be realized. For the sake of simplicity, just think about the emissions per capita of an Indian guy (1.7 tCO2) and an Australian guy (16.5 t CO2). Looking at this number the question why India should be part of a global emissions reduction target with such small emissions per capita seems plausible.</p>
+
+                     <p>The second aspect of equity and climate change refers to intergenerational issues. This debate has focused on the size of emissions reductions to aim for, and on what should be the upper limit on the atmospheric greenhouse gas concentration or the global mean temperature. These questions also affect the distribution of burdens between the current generation and future generations, as the costs of mitigation are borne by the current generation, while future generations benefit from it or will experience the damages if we stay on the baseline.</p>
+
+                     <p>According to the literature, there are several reasons for extensive mitigation today, such as attitudes toward risk and concerns about catastrophic events (Weitzman, 2011). However, most of the discussions have been about the appropriate discount rate for climate policy decisions, as the optimal abatement level is very sensitive to this parameter (Nordhaus, 2007; Dasgupta, 2008), which again represents ethical choices.</p>
+
+                     <p>The ones supporting a low discount rate (meaning they weight future costs and benefits almost the same as today’s costs and benefits) argue that lower discount rates favor investment in future generation while high discount rates violates ethical intuition and since government has an infinite life it should use a very low rate. On the other hand, arguments for high discount rate suggest that future generations inherit capital and knowledge from the present generations therefore it will be cheaper for them to cope with climate change damages, plus future generations are always better-off economically & technologically than past generations and finally, high discount rates avoid present generations make unreasonable sacrifices. This is again an ethical choice with very strong effects on climate policy that has high present costs (introducing a price on the CO2 externality adds an additional cost to society) while damages or benefits are far in the future mainly in poor developing countries.</p>
+
+                     <h4>How is this big idea included in your work?</h4>
+                     <p>In my Climate Change Science and Policy course I address the complexity, in its entirety, of climate change by bringing together the science of climate change, the analysis of uneven impacts and the equity issue behind climate change and possible adaptation and mitigation responses. What students will learn in class can then be experienced in practice through real-world initiatives. In this way, they will understand the benefits of their actions and the difficulties behind the implementation.</p>
+
+                     <h4>Learn more:</h4>
+                     <p><a href="http://www.ipcc.ch/pdf/assessment-report/ar5/wg3/ipcc_wg3_ar5_chapter4.pdf" target="_blank">IPCC, AR5, WG3, Chapter 4</a></p>
+                     <p>Weitzman Martin L. 2011." Uncertainty in the Economics of Catastrophic Climate Change."  Review of Environmental Economics and Policy, volume 5, issue 2, summer 2011, pp. 275–292</p>
+                     <p>Dasgupta, Partha. 2008. “Discounting Climate Change.” Journal of Risk and Uncertainty, 37: 141-169.</p>
+                     <p>Nordhaus, W.D. 2007. “The Stern Review on the Economics of Climate Change.” Journal of Economic Literature, 45(3): 686–702.</p>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="author">
+                      <h4 style="margin-top:20px">Written by:</h4>
+                      <img src="../img/alice-favero.jpg" alt="Generic placeholder image" width="200" height="200"><br>
+                      <span><b>Alice Favero</b></span><br>
+                      <span>School of Public Policy</span><br>
+                    </div>
+                  </div>
+                  <div class="col-md-2"></div>
+            </div>
+        </div>
+
+    <!--Back to top-->
+    <a href="#top" class="back-to-top" style="margin-left:10px;">
+      <i class="fa fa-arrow-circle-up"></i>
+    </a>
+
+    <!--Back to Big Idea Diagram-->
+    <a href="http://serve-learn-sustain.gatech.edu/bigideas" class="btn btn-link back-to-diagram">
+      Back to All Big Ideas »
+    </a>
+
+    <script>
+          // Scroll to top
+           jQuery(document).ready(function() {
+               var offset = 768;
+               var duration = 300;
+               jQuery(window).scroll(function() {
+                   if (jQuery(this).scrollTop() > offset) {
+                       jQuery('.back-to-top').fadeIn(duration);
+                   } else {
+                       jQuery('.back-to-top').fadeOut(duration);
+                   }
+               });
+
+               jQuery('.back-to-top').click(function(event) {
+                   event.preventDefault();
+                   jQuery('html, body').animate({scrollTop: $("#top").offset().top-150}, 310);
+                   return false;
+               })
+           }); 
+
+          // Click and scroll to writeup
+           $("a.author-link").on("click",function(){
+                setTimeout(function() {
+                       href = this.href
+                       theOffset = $(href).offset();
+                       $('body,html').animate({ scrollTop: theOffset.top - 20 });
+                   }, 310);    
+           });
+
+
+    </script>
+    </body>
+</html>
