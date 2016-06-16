@@ -306,6 +306,13 @@
                     return "black"; 
                 }
             })
+            .style("text-decoration",function(d){
+                if (d.writeup){
+                    return "underline"; 
+                }else {
+                    return "none"; 
+                }
+            })
             .style("cursor",function(d){
                 if (d.writeup){
                     return "pointer"; 
