@@ -246,11 +246,13 @@
                          "margintop":"60px",
                          "author":"Bill Drummond",
                          "school":"School of City and Regional Planning",
+                         "writeup":"writeups/IPAT-equation.html",
                          "quote":"IPAT is an acronym for the equation of model that links sustainability outputs to three causal factors. The letters represent the basic form of the model, which is: Impact = Population * Affluence * Technology."},
                         {"name":"Ecological Footprint",
                          "margintop":"60px",
                          "author":"Bill Drummond",
                          "school":"City and Regional Planning",
+                         "writeup":"writeups/ecological-footprint.html",
                          "quote":"The ecological footprint provides a means to identify the gap between current practice and full sustainability at various levels from the neighborhood to the globe, and the method also allows the tracking of progress toward sustainability."}
                      ]
                     }
