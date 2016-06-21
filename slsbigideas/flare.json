@@ -123,7 +123,11 @@
                          "school":"School of Public Policy",
                          "writeup":"writeups/equity-and-climate.html",
                          "quote":"One does not automatically connect climate change with concerns about equity and social justice.  However, when one begins to think about the global and long-term dimensions of climate change as well as the asymmetry of benefits and costs of climate mitigation actions spatially and temporally, the connections become obvious."},
-                        {"name":"Environmental Justice"},
+                        {"name":"Environmental Justice",
+                         "author":"",
+                         "school":"",
+                         "writeup":"writeups/Environmental-justice.html",
+                         "quote":""}
                         {"name":"Interconnectedness",
                          "author":"Marc J Weissburg",
                          "school":"School of Biology",
@@ -203,6 +207,7 @@
                         {"name":"Information Visualization",
                          "author":"",
                          "school":"",
+                         "writeup":"writeups/information-visualization.html",
                          "quote":""}
                       ]
                     },
@@ -217,6 +222,7 @@
                         {"name":"Teamwork & Facilitative Leadership","margintop":"48px",
                          "author":"",
                          "school":"",
+                         "writeup":"writeups/teamwork-and-facilitative-leadership.html",
                          "quote":""}
                       ]
                     },            
