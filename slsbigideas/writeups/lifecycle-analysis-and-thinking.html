@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lifecycle Analysis & Thinking</title>
+    <script src="//d3js.org/d3.v3.min.js"></script>
+    
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+    <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="lib/en-us.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+    f
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+      <style type="text/css">
+
+          .breadcrumb {
+            background-color:white !important;
+          }
+
+          ol {
+            padding-left:0 !important;
+          }
+
+          ol li {
+            padding:.5em !important;
+          }
+
+          .breadcrumb > li::before {
+            color:white !important;
+          }
+
+          #writeup a {
+            color:blue !important;
+          }
+
+          body {
+            font-size: 13px;
+            font-family: "Helvetica Neue", Helvetica;
+          }
+
+          .author-link {
+            border:1px solid;
+          }
+
+          .btn-link:hover {
+            color:white;
+            background-color:#337ab7; 
+            text-decoration: none; 
+
+          }
+
+          .row {
+            margin-bottom:15px ;
+          }
+
+          hr.fade-hr {
+              height: 12px;
+              border: 0;
+              box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+          }
+
+          .back-to-top {
+          background: none;
+          margin: 0;
+          position: fixed;
+          bottom: 0;
+          left: 20;
+          width: 70px;
+          height: 70px;
+          z-index: 100;
+          display: none;
+          text-decoration: none;
+          color: #ffffff;
+          margin-left:20; 
+          }
+
+          .back-to-top i {
+            font-size: 60px;
+            color: rgba(0,0,0,0.5); 
+          }
+
+          .back-to-diagram {
+            position: fixed;
+            bottom: 20px;
+            left: 85vw;
+            z-index: 100;
+          }
+
+          .affiliation {
+            height:56px;
+          }
+
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="row" id="top">
+                <div class="col-md-12">
+                      <ol class="breadcrumb" style="margin-bottom: 5px;">
+                        <li style="background-color:#f16c00;">Learn</li>
+                        <li style="background-color:#fd8c00;">Concepts</li>
+                        <li style="background-color:#ffa800;">Systems</li>
+                        <li style="background-color:#FFCC80;">Lifecycle Analysis & Thinking</li>
+                      </ol>
+                </div>
+                <div class="col-md-12">
+                    <h3>Lifecycle Analysis & Thinking</h3>
+                </div>
+            </div>
+
+
+            <div class="row">
+               <div class="col-sm-3">
+                      <img class="img-thumbnail" src="../img/realff-matthew.jpg" alt="Mattew Realff headshot" width="200" height="200">
+                      <h4>Mattew Realff</h4>
+                      <p class="affiliation">School of Chemical & Biomolecular Engineering</p>
+                      <p><a class="btn btn-link author-link" href="#realff" role="button">Read Writeup »</a></p>
+               </div>
+               <div class="col-sm-3">
+                      <img class="img-thumbnail" src="../img/cassandra-telenko.jpg" alt="Cassandra Telenko headshot" width="200" height="200">
+                      <h4>Cassandra Telenko</h4>
+                      <p class="affiliation">Woodruff School of Mechanical Engineering; School of Industrial Design</p>
+                      <p><a class="btn btn-link author-link" href="#telenko" role="button">Read Writeup »</a></p>
+               </div>
+          </div>
+
+          <hr class="fade-hr">
+
+                <!-- New Writeup  -->
+                <div class="row" id="realff">
+                  <div class="col-md-12">
+                        <ol class="breadcrumb" style="margin-bottom: 5px;">
+                          <li style="background-color:#f16c00;">Learn</li>
+                          <li style="background-color:#fd8c00;">Concepts</li>
+                          <li style="background-color:#ffa800;">Systems</li>
+                          <li style="background-color:#FFCC80;">Lifecycle Analysis & Thinking</li>
+                        </ol>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-md-7" id="writeup">
+
+                     <h4>How would you define this big idea?</h4>
+                     <p>Lifecycle thinking is most often considered in the context of products, but can also be applied to services and other systems that deliver a clear unit of value.  The idea is to evaluate the multi-dimensional impacts of delivering the unit of value not just at its point of delivery but also tracing supply chains required to deliver the value back to their points of origin, considering the impacts during the time the unit of value is being provided, and during any disposal or recycling.  Impacts that are most typically considered are physical, such as global warming potential or ecotoxicological, and more recently social, to compliment the usual economic measures.</p>
+
+                     <h4>Can you provide an example of how this big idea is applied to sustainability?</h4>
+                     <p>In the example of renewable energy infrastructure has to be built to provide it, and this can still consume scare resources that have detrimental environmental impacts.  For example, critical minerals such as Neodymium are used in high powered magnets for wind turbines and are currently produced through very locally environmentally damaging mining in Mongolia.  Thus although wind turbine energy might have low carbon footprint in its production, it can have high impacts in other parts of the supply chain.  Similarly, biofuels might have better carbon footprints that hydrocarbons once the land has been cleared for growing them, but the initial release of carbon from the standing biomass is part of the life cycle.</p>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="author">
+                      <h4 style="margin-top:20px">Written by:</h4>
+<!--                       <img src="../img/dan-matisoff.jpg" alt="Dan Matisoff headshot" width="100" height="100"><br> -->
+                      <span><b>Matthew Realff</b></span><br>
+                      <span>School of Chemical & Biomolecular Engineering</span><br>
+                    </div>
+                  </div>
+                  <div class="col-md-2"></div>
+            </div>
+
+            <hr class="fade-hr">
+
+              <!-- New Writeup  -->
+              <div class="row" id="telenko">
+                  <div class="col-md-12">
+                        <ol class="breadcrumb" style="margin-bottom: 5px;">
+                          <li style="background-color:#f16c00;">Learn</li>
+                          <li style="background-color:#fd8c00;">Concepts</li>
+                          <li style="background-color:#ffa800;">Systems</li>
+                          <li style="background-color:#FFCC80;">Lifecycle Analysis & Thinking</li>
+                        </ol>
+                  </div>
+              </div>
+
+                <div class="row">
+                  <div class="col-md-7" id="writeup">
+
+                     <h4>How would you describe this big idea?</h4>
+                     <p>Lifecycle Analysis (LCA) is a specific analytical approach to evaluating the impact of human artifacts. It is a engages lifecycle thinking by guiding decision makers to consider each stage of that artifact’s lifecycle, from material extraction through production, use, and disposal, and consider the impacts of those stages. Social LCA (S-LCA) is a particular emerging form of LCA that focuses on the social impacts. Impacts include workers rights and safety, community building, living conditions, fair competition. These impacts may be negative or positive, and our understanding and definitions of types of impacts is still improving. Many researchers are still working on methodological approaches to S-LCA.</p>
+
+                     <h4>How is this big idea applied to your work?</h4>
+                     <p>Much of my work is in environmental LCA, and S-LCA shares its origins in this approach. In fact, the reasons we care about environmental LCA are for its impacts on worker safety and local health and fair use and stewardship of resources. The interconnections between the design of artifacts, environmental systems, and social systems are highly complex, and in order to make smarter decisions and be able to predict un-intended consequences, we need to model these social and environmental aspects of artifacts.</p>
+
+                     <h4>Learn more:</h4>
+                     <p><a href="https://socialhotspot.org/home-about-shdb/">Social Hot Spot Database</a></p>
+                     <p><a href="http://www.unep.org/publications/search/pub_details_s.asp?ID=4102">Guidelines for Social Life Cycle Assessment of Products</a></p>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="author">
+                      <h4 style="margin-top:20px">Written by:</h4>
+                      <span><b>Cassandra Telenko</b></span><br>
+                      <span>Woodruff School of Mechanical Engineering; School of Industrial Design</span>
+                    </div>
+                  </div>
+                  <div class="col-md-2"></div>
+            </div>
+
+
+        </div>
+
+    <!--Back to top-->
+    <a href="#top" class="back-to-top" style="margin-left:10px;">
+      <i class="fa fa-arrow-circle-up"></i>
+    </a>
+
+    <!--Back to Big Idea Diagram-->
+    <a href="http://serve-learn-sustain.gatech.edu/bigideas" class="btn btn-link back-to-diagram">
+      Back to All Big Ideas »
+    </a>
+
+    <script>
+          // Scroll to top
+           jQuery(document).ready(function() {
+               var offset = 768;
+               var duration = 300;
+               jQuery(window).scroll(function() {
+                   if (jQuery(this).scrollTop() > offset) {
+                       jQuery('.back-to-top').fadeIn(duration);
+                   } else {
+                       jQuery('.back-to-top').fadeOut(duration);
+                   }
+               });
+
+               jQuery('.back-to-top').click(function(event) {
+                   event.preventDefault();
+                   jQuery('html, body').animate({scrollTop: $("#top").offset().top-150}, 310);
+                   return false;
+               })
+           }); 
+
+          // Click and scroll to writeup
+           $("a.author-link").on("click",function(){
+                setTimeout(function() {
+                       href = this.href
+                       theOffset = $(href).offset();
+                       $('body,html').animate({ scrollTop: theOffset.top - 120 });
+                   }, 310);    
+           });
+
+
+    </script>
+    </body>
+</html>
