@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ecological Footprint</title>
+    <script src="//d3js.org/d3.v3.min.js"></script>
+    
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+    <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="lib/en-us.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+      <style type="text/css">
+
+          .breadcrumb {
+            background-color:white !important;
+          }
+
+          ol {
+            padding-left:0 !important;
+          }
+
+          ol li {
+            padding:.5em !important;
+          }
+
+          .breadcrumb > li::before {
+            color:white !important;
+          }
+
+          #writeup a {
+            color:blue !important;
+          }
+
+          body {
+            font-size: 13px;
+            font-family: "Helvetica Neue", Helvetica;
+          }
+
+          .author-link {
+            border:1px solid;
+          }
+
+          .btn-link:hover {
+            color:white;
+            background-color:#337ab7; 
+            text-decoration: none; 
+
+          }
+
+          .row {
+            margin-bottom:15px ;
+          }
+
+          hr.fade-hr {
+              height: 12px;
+              border: 0;
+              box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+          }
+
+          .back-to-top {
+          background: none;
+          margin: 0;
+          position: fixed;
+          bottom: 0;
+          left: 20;
+          width: 70px;
+          height: 70px;
+          z-index: 100;
+          display: none;
+          text-decoration: none;
+          color: #ffffff;
+          margin-left:20; 
+          }
+
+          .back-to-top i {
+            font-size: 60px;
+            color: rgba(0,0,0,0.5); 
+          }
+
+          .back-to-diagram {
+            position: fixed;
+            bottom: 20px;
+            left: 85vw;
+            z-index: 100;
+          }
+
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="row" id="top">
+                <div class="col-md-12">
+                      <ol class="breadcrumb" style="margin-bottom: 5px;">
+                        <li style="background-color:#f16c00;">Learn</li>
+                        <li style="background-color:#fd8c00;">Methods</li>
+                        <li style="background-color:#ffa800;">Environmental Assessment</li>
+                        <li style="background-color:#FFCC80;">Ecological Footprint</li>
+                      </ol>
+                </div>
+                <div class="col-md-12">
+                    <h3>Ecological Footprint</h3>
+                </div>
+            </div>
+
+                <div class="row" id="drummond">
+                  <div class="col-md-7" id="writeup">
+
+                     <h4>How would you describe this method?</h4>
+                     <p>Ecological footprint models calculate global, national, regional, or local supply of arable land (weighted by productivity) and compare it to the comprehensive demand for land.  Global ecological footprint analysis finds that our current demand for resources is 50% higher than the planet’s available resources. The demand for arable land (ecological footprint) includes land required to produce products and land required to dispose of waste.  It is calculated in categories that include cropland, grazing land, forest products, fishing grounds, urban land, and (forest) land for carbon sequestration. The available supply of land is the sum of cropland, forest land, etc. weighted by productivity.</p>
+
+                     <h4>How is this big idea used or could be used in your work, in relation to sustainable communities?</h4>
+                     <p>The ecological footprint provides a means to identify the gap between current practice and full sustainability at various levels from the neighborhood to the globe, and the method also allows the tracking of progress toward sustainability.  Because the method utilizes basic units of land, it converts the somewhat abstract concept of “sustainability” into readily understandable units of acres (or hectares) on the ground.</p>
+
+                     <h4>Learn more:</h4>
+                     <p>World Wildlife Fund. (2014). <a href="http://wwf.panda.org/about_our_earth/" target="_blank">Living planet report 2014; Species and spaces, people and places.  London: World Wildlife Fund.</a></p>
+                     <p>Wackernagel, M. and W. Rees. (1996). Our ecological footprint: Reducing human impact on the earth. Gabriola Island, BC: New Society Publishers.</p>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="author">
+                      <h4 style="margin-top:20px">Written by:</h4>
+                      <img src="../img/bill-drummond.jpg" alt="Bill Drummond headshot" width="200" height="200"><br>
+                      <span><b>Bill Drummond</b></span><br>
+                      <span>City and Regional Planning</span><br>
+
+                      <hr>
+                      <h4>Read more by Bill Drummond:</h4>
+                      <a href="IPAT-equation.html"><p>IPAT Equation</p></a>
+                      <a href="sustainable-urban-development.html"><p>Sustainable Urban Development</p></a>
+                    </div>
+                  </div>
+                  <div class="col-md-2"></div>
+            </div>
+        </div>
+
+    <!--Back to top-->
+    <a href="#top" class="back-to-top" style="margin-left:10px;">
+      <i class="fa fa-arrow-circle-up"></i>
+    </a>
+
+    <!--Back to Big Idea Diagram-->
+    <a href="http://serve-learn-sustain.gatech.edu/bigideas" class="btn btn-link back-to-diagram">
+      Back to All Big Ideas »
+    </a>
+
+    <script>
+          // Scroll to top
+           jQuery(document).ready(function() {
+               var offset = 768;
+               var duration = 300;
+               jQuery(window).scroll(function() {
+                   if (jQuery(this).scrollTop() > offset) {
+                       jQuery('.back-to-top').fadeIn(duration);
+                   } else {
+                       jQuery('.back-to-top').fadeOut(duration);
+                   }
+               });
+
+               jQuery('.back-to-top').click(function(event) {
+                   event.preventDefault();
+                   jQuery('html, body').animate({scrollTop: $("#top").offset().top-150}, 310);
+                   return false;
+               })
+           }); 
+
+          // Click and scroll to writeup
+           $("a.author-link").on("click",function(){
+                setTimeout(function() {
+                       href = this.href
+                       theOffset = $(href).offset();
+                       $('body,html').animate({ scrollTop: theOffset.top - 20 });
+                   }, 310);    
+           });
+
+
+    </script>
+    </body>
+</html>
