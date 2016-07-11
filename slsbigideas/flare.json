@@ -157,6 +157,7 @@
                     {"name":"Social, Cultural & Environmental Context",
                      "author":"Anne Pollock",
                      "school":"School of Literature, Media, and Communication",
+                     "writeup":"writeups/social-cultural-and-environmental-context.html",
                      "quote":"Science, Technology and Society (STS) is an interdisciplinary field of study that seeks to understand how science and technology shape society and culture and how society and culture, in turn, shape the development of science and technology."}
                  ]
                 }                
@@ -177,6 +178,7 @@
                             {"name":"Participatory Research",
                              "author":"Christopher Le Dantec",
                              "school":"School of Literature, Media, and Communication",
+                             "writeup":"writeups/participatory-research.html",
                              "quote":"Participatory Research starts from the principle of research with, not research for."},
                             {"name":"Community Asset Mapping",
                              "author":"Carl DiSalvo",
