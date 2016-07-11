@@ -183,10 +183,12 @@
                             {"name":"Community Asset Mapping",
                              "author":"Carl DiSalvo",
                              "school":"School of Literature, Media, and Communication",
+                             "writeup":"writeups/community-asset-mapping.html",
                              "quote":"The value of mapping to sustainable communities is that is provides a familiar and concrete form to present meaningful data and orient stakeholders in regards to an issue."},
                             {"name":"Design Thinking",
                              "author":"Carl DiSalvo",
                              "school":"School of Literature, Media, and Communication",
+                             "writeup":"writeups/design-thinking.html",
                              "quote":"Design thinking is a loose collection of methods and tactics abstracted from design practice and made applicable to issues, fields, and contexts generally thought of being outside of design."},
                             {"name":"Problem-based Learning",
                              "author":"Wendy Newstetter",
@@ -195,6 +197,7 @@
                             {"name":"Ethnography",
                              "author":"Carl DiSalvo",
                              "school":"School of Literature, Media, and Communication",
+                             "writeup":"writeups/ethnography.html",
                              "quote":"Ethnography is the practice of structured observation and interpretation of culture and society."},
                             {"name":"Understanding Local History & Context",
                              "author":"",
@@ -204,6 +207,7 @@
                             {"name":"Prototyping",
                              "author":"Carl DiSalvo",
                              "school":"School of Literature, Media, and Communication",
+                             "writeup":"writeups/prototyping.html",
                              "quote":"Prototyping is the activity of creating partial models of an artifact or system."}
                      
                       ] 
