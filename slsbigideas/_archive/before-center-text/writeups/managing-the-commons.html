@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Managing the Commons</title>
+    <script src="//d3js.org/d3.v3.min.js"></script>
+    
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+    <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="lib/en-us.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+    f
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+      <style type="text/css">
+
+          .breadcrumb {
+            background-color:white !important;
+          }
+
+          ol {
+            padding-left:0 !important;
+          }
+
+          ol li {
+            padding:.5em !important;
+          }
+
+          .breadcrumb > li::before {
+            color:white !important;
+          }
+
+          #writeup a {
+            color:blue !important;
+          }
+
+          body {
+            font-size: 13px;
+            font-family: "Helvetica Neue", Helvetica;
+          }
+
+          .author-link {
+            border:1px solid;
+          }
+
+          .btn-link:hover {
+            color:white;
+            background-color:#337ab7; 
+            text-decoration: none; 
+
+          }
+
+          .row {
+            margin-bottom:15px ;
+          }
+
+          hr.fade-hr {
+              height: 12px;
+              border: 0;
+              box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+          }
+
+          .back-to-top {
+          background: none;
+          margin: 0;
+          position: fixed;
+          bottom: 0;
+          left: 20;
+          width: 70px;
+          height: 70px;
+          z-index: 100;
+          display: none;
+          text-decoration: none;
+          color: #ffffff;
+          margin-left:20; 
+          }
+
+          .back-to-top i {
+            font-size: 60px;
+            color: rgba(0,0,0,0.5); 
+          }
+
+          .back-to-diagram {
+            position: fixed;
+            bottom: 20px;
+            left: 85vw;
+            z-index: 100;
+          }
+
+          .affiliation {
+            height:56px;
+          }
+
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="row" id="top">
+                <div class="col-md-12">
+                      <ol class="breadcrumb" style="margin-bottom: 5px;">
+                        <li style="background-color:#ea7200;color:white">Learn</li>
+                        <li style="background-color:#ff8300;">Concepts</li>
+                        <li style="background-color:#ffb359;">Governance</li>
+                        <li style="background-color:#ffcb8b;">Managing the Commons</li>
+                      </ol>
+                </div>
+                <div class="col-md-12">
+                    <h3>Managing the Commons</h3>
+                </div>
+            </div>
+
+
+            <div class="row">
+               <div class="col-sm-3">
+                      <img class="img-thumbnail" src="../img/dan-matisoff.jpg" alt="Dan Matisoff headshot" width="200" height="200">
+                      <h4>Dan Matisoff</h4>
+                      <p class="affiliation">School of Public Policy</p>
+                      <p><a class="btn btn-link author-link" href="#matisoff" role="button">Read Writeup »</a></p>
+               </div>
+               <div class="col-sm-3">
+                      <img class="img-thumbnail" src="../img/beril-toktay.jpg" alt="beril Toktay headshot" width="200" height="200">
+                      <h4>Beril Toktay</h4>
+                      <p class="affiliation">Scheller College of Business</p>
+                      <p><a class="btn btn-link author-link" href="#toktay" role="button">Read Writeup »</a></p>
+               </div>
+          </div>
+
+          <hr class="fade-hr">
+
+                <!-- New Writeup  -->
+                <div class="row" id="matisoff">
+                  <div class="col-md-12">
+                        <ol class="breadcrumb" style="margin-bottom: 5px;">
+                          <li style="background-color:#f16c00;">Learn</li>
+                          <li style="background-color:#fd8c00;">Concepts</li>
+                          <li style="background-color:#ffa800;">Governance</li>
+                          <li style="background-color:#FFCC80;">Managing the Commons</li>
+                        </ol>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-md-7" id="writeup">
+
+                     <h4>How would you define this big idea?</h4>
+                     <p>In 1968, Garrett Hardin postulated that humans were doomed to suboptimal outcomes, due to the tragedy of the commons. Individuals behaving rationally would lead to overconsumption and thus, collectively suboptimal outcomes. He, and many who came after, argued that the solutions to this tragedy were either privatization of a resource, or alternatively government control and top-down regulation.</p>
+
+                     <p>But decades of research have demonstrated that local communities have demonstrated the capacity to avoid this “tragedy” through the formation of institutions that are collectively designed, monitored, and enforced. In Elinor Ostrom’s seminal book “Governing the Commons” she argues that by forming institutions that follow 8 principles can allow communities to avoid the tragedy of the commons and collectively self govern collective (or “common pool”) resources.</p>
+
+                     <p>These 8 principles are:
+                     <ol>
+                       <li>Boundaries of users and resource are clear</li>
+                       <li>Congruence between benefits and costs</li>
+                       <li>Users had procedures for making own rules</li>
+                       <li>Regular monitoring of users and resource conditions</li>
+                       <li>Graduated sanctions</li>
+                       <li>Conflict resolution mechanisms</li>
+                       <li>Minimal recognition of rights by government</li>
+                       <li>Nested enterprises</li>
+                     </ol>
+                     </p>
+
+                     <p>Subsequent research has demonstrated that by improving trust through face-to-face communication, users of a resource are more likely to be able to devise rules and creative solutions that help sustain a local resource. This research has become the basis for extensions such as collaborative resource management, conceptions of complex socio-ecological systems and their management, and the principles of resilience and robustness.</p>
+
+                     <h4>How is this big idea included in your research?</h4>
+                     <p>This body of research as a whole, guides the formation of institutions designed to govern a resource and facilitate collective action. In particular, it focuses on the facilitation of cooperation, and how this cooperation can lead humans to overcome the tragedy of the commons without privatization or government intervention. One strand of my research, for example, has attempted to test the extent to which adherence with these principles allow users to increase volunteerism and form stronger communities, and how in turn, these stronger communities lead to improved management of the commons. Another strand examines how institutions can be designed that encourage firms to improve environmental behavior.</p>
+
+                     <h4>Learn more:</h4>
+                     <p><a href="http://www.cooperationcommons.com/node/361" target="_blank">Summary of the Governing the Commons (1990)</a> and implications for community and collective action.</p>
+                     <p><a href="http://science.sciencemag.org/content/284/5412/278" target="_blank">1999 Science article</a> by Ostrom (and others) discussing how lessons about local commons management can be applied to global challenges</p>
+                     <p><a href="http://science.sciencemag.org/content/302/5652/1907" target="_blank">2003 Science article</a> by Dietz, Ostrom, and Stern that introduces the concept of polycentricity, and how self-organized institutions can be layered and scaled to manage global problems.</p>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="author">
+                      <h4 style="margin-top:20px">Written by:</h4>
+<!--                       <img src="../img/dan-matisoff.jpg" alt="Dan Matisoff headshot" width="100" height="100"><br> -->
+                      <span><b>Dan Matisoff</b></span><br>
+                      <span>School of Public Policy</span><br>
+                    </div>
+                  </div>
+                  <div class="col-md-2"></div>
+            </div>
+
+            <hr class="fade-hr">
+
+              <!-- New Writeup  -->
+              <div class="row" id="toktay">
+                  <div class="col-md-12">
+                        <ol class="breadcrumb" style="margin-bottom: 5px;">
+                          <li style="background-color:#f16c00;">Learn</li>
+                          <li style="background-color:#fd8c00;">Concepts</li>
+                          <li style="background-color:#ffa800;">Governance</li>
+                          <li style="background-color:#FFCC80;">Managing the Commons</li>
+                        </ol>
+                  </div>
+              </div>
+
+                <div class="row">
+                  <div class="col-md-7" id="writeup">
+
+                     <h4>How would you describe this big idea?</h4>
+                     <p>The ‘tragedy of the commons’ refers to individual actors (from individuals to small businesses to large corporations) over-consuming or over-polluting natural resources in the quest to maximize their own, often short-term, benefit. Solutions include privatization, regulation and the formation of institutions that are collectively designed, monitored, and enforced. Due to resource pressures on the one hand, and increasing consumer awareness on the other, industry has become much more involved in these institutions. Strategies include industry self-regulation, corporate social responsibility and shared value creation.</p>
+
+                     <h4>How is this big idea applied to sustainable communities?</h4>
+                     <p>Many corporations now scrutinize their suppliers' production processes including their pollution emissions, their sourcing strategies or human rights records. They are aided in this information gathering schemes like the Carbon Disclosure Project, labeling schemes like Fair Trade and organics, and sustainable sourcing schemes like Marine Stewardship Council Certification and Forest Stewardship Council certification. Many of these standards and certifications involve participation from affected communities in the design phase and establish best practices related to rights of indigenous peoples and affirmation of human rights.</p>
+
+                     <h4>Learn more:</h4>
+                     <p>The Oxford Handbook of Corporate Social Responsibility (Oxford Handbooks)</p>
+
+                     <p>Capitalism at the Crossroads: Next Generation Business Strategies for a Post-Crisis World, Stuart Hart</p>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="author">
+                      <h4 style="margin-top:20px">Written by:</h4>
+                      <span><b>Beril Toktay</b></span><br>
+                      <span>Scheller College of Business</span>
+                    </div>
+                  </div>
+                  <div class="col-md-2"></div>
+            </div>
+
+
+        </div>
+
+    <!--Back to top-->
+    <a href="#top" class="back-to-top" style="margin-left:10px;">
+      <i class="fa fa-arrow-circle-up"></i>
+    </a>
+
+    <!--Back to Big Idea Diagram-->
+    <a href="http://serve-learn-sustain.gatech.edu/bigideas" class="btn btn-link back-to-diagram">
+      Back to All Big Ideas »
+    </a>
+
+    <script>
+          // Scroll to top
+           jQuery(document).ready(function() {
+               var offset = 768;
+               var duration = 300;
+               jQuery(window).scroll(function() {
+                   if (jQuery(this).scrollTop() > offset) {
+                       jQuery('.back-to-top').fadeIn(duration);
+                   } else {
+                       jQuery('.back-to-top').fadeOut(duration);
+                   }
+               });
+
+               jQuery('.back-to-top').click(function(event) {
+                   event.preventDefault();
+                   jQuery('html, body').animate({scrollTop: $("#top").offset().top-150}, 310);
+                   return false;
+               })
+           }); 
+
+          // Click and scroll to writeup
+           $("a.author-link").on("click",function(){
+                setTimeout(function() {
+                       href = this.href
+                       theOffset = $(href).offset();
+                       $('body,html').animate({ scrollTop: theOffset.top - 120 });
+                   }, 310);    
+           });
+
+
+    </script>
+    </body>
+</html>

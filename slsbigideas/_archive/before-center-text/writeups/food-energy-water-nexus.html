@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Food-Energy-Water Nexus</title>
+    <script src="//d3js.org/d3.v3.min.js"></script>
+    
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+    <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="lib/en-us.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+      <style type="text/css">
+
+          .breadcrumb {
+            background-color:white !important;
+          }
+
+          ol {
+            padding-left:0 !important;
+          }
+
+          ol li {
+            padding:.5em !important;
+          }
+
+          .breadcrumb > li::before {
+            color:white !important;
+          }
+
+          #writeup a {
+            color:blue !important;
+          }
+
+          body {
+            font-size: 13px;
+            font-family: "Helvetica Neue", Helvetica;
+          }
+
+          .author-link {
+            border:1px solid;
+          }
+
+          .btn-link:hover {
+            color:white;
+            background-color:#337ab7; 
+            text-decoration: none; 
+
+          }
+
+          .row {
+            margin-bottom:15px ;
+          }
+
+          hr.fade-hr {
+              height: 12px;
+              border: 0;
+              box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+          }
+
+          .back-to-top {
+          background: none;
+          margin: 0;
+          position: fixed;
+          bottom: 0;
+          left: 20;
+          width: 70px;
+          height: 70px;
+          z-index: 100;
+          display: none;
+          text-decoration: none;
+          color: #ffffff;
+          margin-left:20; 
+          }
+
+          .back-to-top i {
+            font-size: 60px;
+            color: rgba(0,0,0,0.5); 
+          }
+
+          .back-to-diagram {
+            position: fixed;
+            bottom: 20px;
+            left: 85vw;
+            z-index: 100;
+          }
+
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="row" id="top">
+                <div class="col-md-12">
+                      <ol class="breadcrumb" style="margin-bottom: 5px;">
+                        <li style="background-color:#ea7200;color:white">Learn</li>
+                        <li style="background-color:#ff8300;">Concepts</li>
+                        <li style="background-color:#ffb359;">Systems</li>
+                        <li style="background-color:#ffcb8b;">Food-Energy-Water Nexus</li>
+                      </ol>
+                </div>
+                <div class="col-md-12">
+                    <h3>Food-Energy-Water Nexus</h3>
+                </div>
+            </div>
+
+                <div class="row" id="realff">
+                  <div class="col-md-7" id="writeup">
+
+                     <h4>How would you define this big idea?</h4>
+                     <p>FEW systems can be define very broadly, according to the <a href="http://www.nsf.gov/pubs/2015/nsf15040/nsf15040.jsp">National Science Foundation</a> "incorporating physical processes (such as new technologies for more efficient resource utilization), natural processes (such as biogeochemical and hydrologic cycles), biological processes (such as agroecosystem structure and productivity), social/behavioral processes (such as decision making and governance), and cyber elements."  They can be considered prime examples of complex adaptive systems that require interdisciplinary approaches for their study and effective management.</p>
+
+                     <h4>Can you provide an example of how this big idea is applied to sustainability?</h4>
+                     <p>If we are going to consider the production of fuels from biomass then naturally we cross into the FEWS domain.  Using land to grow biomass for fuels can change the land and water available for food production, and could divert other resources, such as fertilizers, towards this use.  It can also provide an alternative source of income to rural communities, as well as potentially reduce the net emissions of carbon dioxide to the atmosphere in the long term but potentially increase it in the shorter term as land uses change and standing biomass is removed.</p>
+
+                     <h4>Learn more:</h4>
+                     <p>Food, Energy, and Water: Transformative Research Opportunities in the Mathematical and Physical Sciences.</p>
+                     <p>This is a <a href="http://www.nsf.gov/mps/advisory/mpsac_other_reports/nsf_food_security_report_review_final_rev2.pdf">recent review</a> of this topic done for the NSF as part of their preparation for a series of RFP's in this area.</p>
+                     <p>A. D. Cuéllar and M. E. Webber. “Wasted food, wasted energy: The embedded energy in food waste in the United States,” Environ. Sci. Tech. 44(16), 6464–6469 (2010).</p>
+                     <p>P. Canning, A. Charles, S. Huang, K. R. Polenske, and A. Waters. Energy Use in the U.S. Food System, US Department of Agriculture, Economic Research Service, 2010.</p>
+                     <p>C. L. Weber and H. S. Matthews. “Food-miles and the relative climate impacts of food choices in the United States,” Environ. Sci. Tech. 42(10), 3508–3513 (2008). DOI: 10.1021/es702969f 6.</p>
+                     <p>These are reasonable introductions to how energy and food are intertwined because of the use of energy intensive operations in the production of food such as nitrogen fixation from air for fertilizers, they are illustrative of different methodologies to estimate impacts.</p>
+                     <p>A. Y. Hoekstra and M. M. Mekonnen. “The water-footprint of humanity,” PNAS 109, 3232– 3237 (2012). DOI: 10.1073/pnas.1109936109</p>
+                     <p>An overview of a recent strand of research that tries to look at different ways we use water for activities such as producing food and energy and therefore our overall taxation of water resources.</p>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="author">
+                      <h4 style="margin-top:20px">Written by:</h4>
+                      <img src="../img/realff-matthew.jpg" alt="headshot" width="200" height="200"><br>
+                      <span><b>Matthew J. Realff</b></span><br>
+                      <span>School of Chemical & Biomolecular Engineering</span><br>
+
+                      <hr>
+                      <h4>Read more by Matthew J. Realff:</h4>
+                      <a href="systems-thinking.html"><p>Systems Thinking</p></a>
+                      <a href="lifecycle-thinking.html"><p>Lifecycle Thinking</p></a>
+                      <a href="rebound_effect.html"><p>Rebound Effect</p></a>
+                      <a href="infrastructure_physical_technological_social.html"><p>Infrastructure: Physical, Technological, Social</p></a>
+                    </div>
+                  </div>
+                  <div class="col-md-2"></div>
+            </div>
+        </div>
+
+    <!--Back to top-->
+    <a href="#top" class="back-to-top" style="margin-left:10px;">
+      <i class="fa fa-arrow-circle-up"></i>
+    </a>
+
+    <!--Back to Big Idea Diagram-->
+    <a href="http://serve-learn-sustain.gatech.edu/bigideas" class="btn btn-link back-to-diagram">
+      Back to All Big Ideas »
+    </a>
+
+    <script>
+          // Scroll to top
+           jQuery(document).ready(function() {
+               var offset = 768;
+               var duration = 300;
+               jQuery(window).scroll(function() {
+                   if (jQuery(this).scrollTop() > offset) {
+                       jQuery('.back-to-top').fadeIn(duration);
+                   } else {
+                       jQuery('.back-to-top').fadeOut(duration);
+                   }
+               });
+
+               jQuery('.back-to-top').click(function(event) {
+                   event.preventDefault();
+                   jQuery('html, body').animate({scrollTop: $("#top").offset().top-150}, 310);
+                   return false;
+               })
+           }); 
+
+          // Click and scroll to writeup
+           $("a.author-link").on("click",function(){
+                setTimeout(function() {
+                       href = this.href
+                       theOffset = $(href).offset();
+                       $('body,html').animate({ scrollTop: theOffset.top - 20 });
+                   }, 310);    
+           });
+
+
+    </script>
+    </body>
+</html>
